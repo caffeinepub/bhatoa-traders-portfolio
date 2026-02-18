@@ -1,0 +1,43 @@
+{
+  "kind": "build_request",
+  "title": "Add Bhatoa Traders branding images (logo + hero banner)",
+  "projectName": "Bhatoa Traders – Portfolio",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-7",
+      "text": "Generate and add the Bhatoa Traders branding image assets to the frontend as static files under frontend/public/assets/generated using the exact filenames and dimensions specified in the project image requirements.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-3"
+        ],
+        "quotes": [
+          "yes"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The following files exist in the deployed build at the exact paths and are served without 404s: /assets/generated/bhatoa-traders-logo.dim_512x512.png and /assets/generated/bhatoa-traders-hero.dim_1600x600.png",
+        "The logo image is 512x512 and the hero banner image is 1600x600",
+        "Both images render correctly in the existing UI locations (header/footer logo and hero section banner) without layout breakage on mobile and desktop"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not edit any files under frontend/src/components/ui (Shadcn UI components are read-only).",
+    "Do not edit files in frontend immutablePaths: frontend/src/hooks/useInternetIdentity.ts, frontend/src/hooks/useInternetIdentity.tsx, frontend/src/hooks/useActor.ts, frontend/src/main.tsx, frontend/src/components/ui.",
+    "Keep the backend as a single Motoko actor (no additional backend services)."
+  ],
+  "nonGoals": [
+    "Adding new site sections or changing existing business copy beyond what is necessary to display the branding images",
+    "Implementing authentication or any backend data storage",
+    "Integrating third-party image hosting or fetching images via the backend"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Simple modern wordmark logo reading “Bhatoa Traders”, clean vector-like look, minimal icon hinting at school supplies/commerce (bhatoa-traders-logo.dim_512x512.png) 512x512",
+      "Wide hero banner illustration with abstract school-supply motifs (notebooks, pens, furniture silhouettes) in a professional warm palette (bhatoa-traders-hero.dim_1600x600.png) 1600x600"
+    ],
+    "edits": []
+  }
+}

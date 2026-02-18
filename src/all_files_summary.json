@@ -1,0 +1,14 @@
+{
+  "backend/main.mo": "Empty Motoko canister actor definition.",
+  "feature_evidence.json": "Feature evidence report with no features listed.",
+  "frontend-file-summaries.txt": "Text file containing prewritten summaries for key frontend source files.",
+  "frontend/index.css": "Tailwind base layer defining OKLCH theme variables, dark mode variants, and global element styling.",
+  "frontend/index.html": "HTML entry point loading fonts, metadata, and mounting the React app.",
+  "frontend/src/App.tsx": "Main React SPA implementing navigation, sections, product listings, contact CTAs, and scroll-based active section tracking.",
+  "frontend/src/hooks/useActor.ts": "React hook creating and managing a backend actor instance tied to Internet Identity state.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provider and hook for managing Internet Identity auth client, login state, and stored identities.",
+  "frontend/src/index.css": "Tailwind-based global stylesheet defining warm OKLCH palette, typography scaling, dark mode, and utilities.",
+  "frontend/src/main.tsx": "React entry initializing QueryClient, InternetIdentityProvider, and rendering App.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending colors, fonts, shadows, animations, and enabling plugins.",
+  "project_state.json": "Stores the project’s current state, including schema version, feature list, content requirements, and needed images for the Bhatoa Traders website."
+}

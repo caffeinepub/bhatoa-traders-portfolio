@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Create a portfolio/business website for Bhatoa Traders (government school general products supplier) showcasing company info, work experience, products categories, service area, and contact details.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Simple modern wordmark logo reading “Bhatoa Traders”, clean vector-like look, minimal icon hinting at school supplies/commerce (bhatoa-traders-logo.dim_512x512.png) 512x512\n- Wide hero banner illustration with abstract school-supply motifs (notebooks, pens, furniture silhouettes) in a professional warm palette (bhatoa-traders-hero.dim_1600x600.png) 1600x600",
+  "existing_features": [
+    {
+      "id": "feature-create-a-responsive-single-page-business-portfolio-website-for-bhatoa-traders-with-clear-navigation-and-sections-hero-about-work-experience-products-we-supply-grouped-categories-why-choose-bhatoa-traders-service-area-and-contact",
+      "title": "Create a responsive single-page business/portfolio website for “Bhatoa Traders” with clear navigation and sections: Hero, About, Work Experience, Products We Supply (grouped categories), Why Choose Bhatoa Traders, Service Area, and Contact.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-populate-the-website-content-using-the-provided-business-details-company-description-government-school-general-products-supplier-owner-name-harsimrat-singh-bhatoa-experience-5-years-product-categories-stationery-cleaning-maintenance-sports-school-furniture-with-example-items-work-experience-client-types-why-choose-bullet-points-service-area-description-and-contact-phone-whatsapp-number-9464003009",
+      "title": "Populate the website content using the provided business details: company description (government school general products supplier), owner name (Harsimrat Singh Bhatoa), experience (5 years), product categories (Stationery, Cleaning & Maintenance, Sports, School Furniture) with example items, work experience client types, “Why Choose” bullet points, service area description, and contact phone/WhatsApp number (9464003009).",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-clear-contact-call-to-actions-a-click-to-call-phone-link-and-a-whatsapp-link-using-the-provided-number-displayed-prominently-in-the-hero-section-and-again-in-the-contact-section",
+      "title": "Add clear contact call-to-actions: a click-to-call phone link and a WhatsApp link using the provided number, displayed prominently in the Hero section and again in the Contact section.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-establish-a-coherent-visual-theme-and-apply-it-consistently-across-the-site-colors-typography-spacing-and-component-styling-use-a-professional-trustworthy-style-appropriate-for-a-government-school-supplier-avoid-blue-purple-as-the-primary-palette",
+      "title": "Establish a coherent visual theme and apply it consistently across the site (colors, typography, spacing, and component styling). Use a professional, trustworthy style appropriate for a government-school supplier; avoid blue/purple as the primary palette.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-basic-on-page-seo-and-metadata-for-the-business-document-title-bhatoa-traders-meta-description-summarizing-government-school-supply-services-and-accessible-semantic-headings-for-each-section",
+      "title": "Add basic on-page SEO and metadata for the business: document title “Bhatoa Traders”, meta description summarizing government school supply services, and accessible semantic headings for each section.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-include-generated-static-brand-visuals-logo-and-a-hero-banner-illustration-in-the-frontend-as-static-assets-under-frontend-public-assets-generated-and-render-them-on-the-website",
+      "title": "Include generated static brand visuals (logo and a hero banner illustration) in the frontend as static assets under frontend/public/assets/generated and render them on the website.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Build a Bhatoa Traders portfolio/business website with sections: About, Work Experience, Products We Supply (categories), Why Choose Us, Service Area, and Contact details.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Add images/branding to the website (e.g., logo and hero banner) and integrate them into the site design.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Generate and add the Bhatoa Traders branding image assets to the frontend as static files under frontend/public/assets/generated using the exact filenames and dimensions specified in the project image requirements.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Bhatoa Traders – Portfolio",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

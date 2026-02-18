@@ -1,0 +1,36 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-18T08:48:26.341Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 0,
+    "items": [
+      {
+        "id": "REQ-7",
+        "summary": "Generate and add the Bhatoa Traders branding image assets to the frontend as static files under frontend/public/assets/generated using the exact filenames and dimensions specified in the project image requirements.",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/public/assets/generated/bhatoa-traders-logo.dim_512x512.png",
+          "frontend/public/assets/generated/bhatoa-traders-hero.dim_1600x600.png",
+          "frontend/src/App.tsx"
+        ],
+        "matchedFiles": []
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-implementation-plan.json",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

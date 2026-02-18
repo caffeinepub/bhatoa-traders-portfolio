@@ -1,0 +1,33 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Add Bhatoa Traders branding images (logo + hero banner)",
+  "requirements": [
+    {
+      "id": "REQ-7",
+      "summary": "Add generated Bhatoa Traders logo and hero banner as static assets and ensure they render in the existing header/footer and hero UI locations without responsive layout issues.",
+      "acceptanceCriteria": [
+        "The following files exist in the deployed build at the exact paths and are served without 404s: /assets/generated/bhatoa-traders-logo.dim_512x512.png and /assets/generated/bhatoa-traders-hero.dim_1600x600.png",
+        "The logo image is 512x512 and the hero banner image is 1600x600",
+        "Both images render correctly in the existing UI locations (header/footer logo and hero section banner) without layout breakage on mobile and desktop"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/public/assets/generated/bhatoa-traders-logo.dim_512x512.png",
+          "operation": "create",
+          "description": "Add the Bhatoa Traders wordmark logo image asset as a static file with exact dimensions 512x512, matching the required filename and served from /assets/generated/bhatoa-traders-logo.dim_512x512.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/bhatoa-traders-hero.dim_1600x600.png",
+          "operation": "create",
+          "description": "Add the Bhatoa Traders hero banner image asset as a static file with exact dimensions 1600x600, matching the required filename and served from /assets/generated/bhatoa-traders-hero.dim_1600x600.png."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Verify the existing UI wiring continues to reference the exact generated asset paths for the header/footer logo and hero banner, and adjust only layout-related classes if needed to prevent stretching/cropping and avoid mobile/desktop layout breakage."
+        }
+      ]
+    }
+  ]
+}

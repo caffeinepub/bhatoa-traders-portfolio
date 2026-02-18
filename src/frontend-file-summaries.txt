@@ -1,0 +1,6 @@
+{
+  "frontend/src/index.css": "Global styles with warm earthy OKLCH color palette (ochre/amber primary, deep brown accents) for professional government supplier aesthetic, including typography scale and smooth scroll behavior.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with custom fonts (Inter, Poppins), warm color tokens, custom shadows, and fade-in animation for polished UI.",
+  "frontend/index.html": "HTML entry point with updated meta description for SEO, page title \"Bhatoa Traders\", and Google Fonts preconnect for Inter and Poppins typefaces.",
+  "frontend/src/App.tsx": "Complete single-page portfolio website for Bhatoa Traders with sticky navigation, hero section with generated assets, about, work experience, products (4 categories), why choose us, service area, contact CTAs (phone/WhatsApp), and footer with attribution."
+}
